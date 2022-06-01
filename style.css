@@ -44,9 +44,12 @@ nav ul li a:hover {
     color:yellow;
     transition: 0.4s;
     border-bottom: 3px solid yellow;
+    border-top: 3px solid yellow;
+
 }
 nav ul li a.active {
     border-bottom: 3px solid yellow;
+    
 }
 .btn {
     background-color: yellow;
