@@ -341,3 +341,21 @@ h5 {
 .form h2 {
     text-align: center;
 }
+/* .change_content:after {
+    content: '';
+    animation: changetext 15s infinite linear;
+    color: yellow;
+    font-style: bold;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+}
+
+@keyframes changetext {
+    0%{content: "PIZZA"; }
+    20%{content: "BURGERS"; }
+    35%{content: "BURRITOS"; }
+    60%{content: "KEBAB"; }
+    80%{content: "STEAK"; }
+    100%{content: "SEAFOOD"; }
+} */
+

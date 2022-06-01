@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css">
     <title>Burgers Food</title>
 </head>
@@ -22,7 +26,9 @@
 <body>
     <div class="hero" id="hero">
         <nav>
-            <h2 class="logo">Burgers<span>Food</span></h2>
+            <div class="logo">
+            <h2 class="animate__animated animate__bounce">Burgers<span>Food</span></h2>
+        </div>
             <ul>
                 <li><a class="active" href="#hero">Home</a></li>
                 <li><a href="#about">Meniu</a></li>
@@ -34,7 +40,7 @@
         </nav>
         <div class="content">
             <h1>Food Taste</h1>
-            <h4>The tasty food of your choice</h4>
+            <h4>The tasty food of your choice <span class="change_content"> </span></h4>
             <div class="newslatter">
                 <form>
                     <input type="submit" name="submit" value="View meniu">
