@@ -1,14 +1,14 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-.hero{
+.hero {
     height: 100vh;
     width: 100%;
     background-image: url(pexels-photo-1565982.jpeg);
     background-size: cover;
     background-position: center;
 }
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,23 +16,23 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
-.logo{
+.logo {
     color:white;
     font-size: 32px;
     letter-spacing: 1px;
     cursor: pointer;
     font-family: 'Lobster', cursive;
 }
-span{
+span {
     color:yellow;
 }
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
     border-bottom: 3px solid transparent;
 }
-nav ul li a{
+nav ul li a {
     color:white;
     text-decoration: none;
     font-weight: bold;
@@ -40,15 +40,15 @@ nav ul li a{
     
     
 }
-nav ul li a:hover{
+nav ul li a:hover {
     color:yellow;
     transition: 0.4s;
     border-bottom: 3px solid yellow;
 }
-nav ul li a.active{
+nav ul li a.active {
     border-bottom: 3px solid yellow;
 }
-.btn{
+.btn {
     background-color: yellow;
     color:white;
     text-decoration: none;
@@ -58,39 +58,39 @@ nav ul li a.active{
     border-radius: 30px;
     transition: transform 0.4s;
 }
-.btn:hover{
+.btn:hover {
     background-color: transparent;
     border: 2px solid yellow;
     cursor: pointer;
     transition: 0.4s;
 }
 
-.content{
+.content {
     position: absolute;
     top: 50%;
     left: 38%;
     transform: translateY(-40%);
 }
-h1{
+h1 {
     color:white;
     margin: 30px 0px 30px;
     font-size: 70px;
     font-family: 'Open Sans', sans-serif;
     margin-left: 30px;
 }
-h4{
+h4 {
     color:#fcfc;
     letter-spacing: 2px;
     font-size: 24px;
     margin-left: 30px;
 }
-.newslatter form{
+.newslatter form {
     width: 350px;
     max-width: 100%;
     position: relative;
 }
 
-.newslatter form input:last-child{
+.newslatter form input:last-child {
     position: absolute;
     display: inline-block;
     outline: none;
@@ -99,31 +99,30 @@ h4{
     border-radius: 30px;
     background-color: yellow;
     color: white;
-    /* box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585; */
     top: 6px;
     right: 100px;
 }
-.newslatter form input:last-child:hover{
+.newslatter form input:last-child:hover {
     background-color: transparent;
     border: 2px solid yellow;
     cursor: pointer;
     
     transition: 0.4s;
 }
-.about{
+.about {
     width: 100%;
     padding: 100px 0px;
     background-color: white;
 }
-.about img{
+.about img {
     height: auto;
     width: 430px;
 }
-.about-text{
+.about-text {
     width: 550px;
     font-family: 'Open Sans', sans-serif;
 }
-.main{
+.main {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -131,17 +130,17 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
-.main img{
+.main img {
     border-radius: 30px;
 }
-.about-text h2{
+.about-text h2 {
     color:black;
     font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
     
 }
-.about-text h5{
+.about-text h5 {
     color:black;
     letter-spacing: 2px;
     font-size: 22px;
@@ -149,14 +148,14 @@ h4{
     text-transform: capitalize;   
     
 }
-.about-text p{
+.about-text p {
     color:black;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
-button{
+button {
     background-color: yellow;
     color:black;
     text-decoration: none;
@@ -166,23 +165,23 @@ button{
     border-radius: 30px;
     transition: 0.4s;
 }
-button:hover{
+button:hover {
     background-color: transparent;
     border: 2px solid yellow;
     cursor: pointer;
 }
-.shop{
+.shop {
     text-align: center;
     margin-left: 10px;
 }
 
-.service{
+.service {
 	background-image: url(dark-grey-texture-abstract-hd-wallpaper-1920x1200-1223.jpg);
 	width: 100%;
 	
     
 }
-.title h2{
+.title h2 {
 	color: white;
 	font-size: 75px;
 	width: 900px;
@@ -190,14 +189,14 @@ button:hover{
 	text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-.box{
+.box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
     
 }
-.card{
+.card {
 	height: 410px;
 	width: 335px;
 	padding: 20px 35px;
@@ -209,7 +208,7 @@ button:hover{
 	text-align: center;
     
 }
-.card i{
+.card i {
 	font-size: 50px;
 	display: block;
 	text-align: center;
@@ -217,26 +216,26 @@ button:hover{
 	color: yellow;
 
 }
-.card img{
+.card img {
     opacity: 0.5;
     border-radius: 30px;
 }
 .card img:hover {
     opacity: 1.0;
 }
-h5{
+h5 {
 	color: black;
 	font-size: 23px;
 	margin-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
 }
-.pra p{
+.pra p {
 	color: rgba(106, 52, 106, 0.8);
 	font-size: 11px;
 	line-height: 18px;
 	margin-bottom: 25px;
 }
-.card .button{
+.card .button {
 	background-color:yellow;
 	color: black;
 	text-decoration: none;
@@ -246,28 +245,28 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
-.card .button:hover{
+.card .button:hover {
 	background-color: transparent;
 	border: 2px solid yellow;
 	cursor: pointer;
 }
-.footer{
+.footer {
     width: 100%;
     padding: 30px 0px;
     background-color: white;
 }
-.form{
+.form {
     margin-left: 400px;
 }
-.logo h1{
+.logo h1 {
     color:black;
     text-align: center;
     font-size: 30px;
 }
-.footer{
+.footer {
     background-color: rgb(245, 245, 245);
 }
-#subcribe{
+#subcribe {
     background-color: yellow;
     color: black;
     text-decoration: none;
@@ -277,14 +276,14 @@ h5{
     border-radius: 30px;
     transition: transform 0.4s;
 }
-#subcribe:hover{
+#subcribe:hover {
     background-color: transparent;
     border: 2px solid yellow;
     cursor: pointer;
     transition: 0.4s; 
     
 }
-#email{
+#email {
     display: inline-block;
 	padding: 14px 130px 14px 15px;
 	border: 2px solid yellow;
@@ -292,12 +291,12 @@ h5{
 	border-radius: 30px;
     
 }
-.reservation{
+.reservation {
     width: 100%;
     padding: 100px 0px;
     background-color: white;
 }
-.reserve h2, h3{
+.reserve h2, h3 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -305,27 +304,27 @@ h5{
     display: flex;
     margin-bottom: 15px;
     margin-left: 350px;
-  }
+}
   
-  .icon {
+.icon {
     padding: 10px;
     background: yellow;
     color: black;
     min-width: 50px;
     text-align: center;
-  }
+}
   
-  .input-field {
+.input-field {
     width: 50%;
     padding: 10px;
     outline: none;
-  }
+}
   
-  .input-field:focus {
+.input-field:focus {
     border: 2px solid yellow;
-  }
+}
 
-  .buttons {
+.buttons {
     background-color: yellow;
     color: black;
     padding: 15px 20px;
@@ -334,11 +333,11 @@ h5{
     width: 10%;
     opacity: 0.9;
     margin-left: 550px;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     opacity: 1;
-  }
-  .form h2{
-      text-align: center;
-  }
+}
+.form h2 {
+    text-align: center;
+}
